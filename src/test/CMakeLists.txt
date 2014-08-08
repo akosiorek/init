@@ -9,4 +9,4 @@ message(${CMAKE_CURRENT_SOURCE_DIR})
 
 add_executable(test test.cpp)
 target_link_libraries(test gtest_main)
-add_custom_command(TARGET test POSTBUILD COMMAND test)
+add_custom_command(TARGET test POST_BUILD COMMAND test)
