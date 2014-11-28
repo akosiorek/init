@@ -14,3 +14,5 @@ include_directories(${GLOG_INCLUDE_DIRS})
 
 add_subdirectory(src)
 add_subdirectory(test)
+
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
