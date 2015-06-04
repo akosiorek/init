@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-//#include <memory>
+#include <memory>
 
 class MyClass {};
 
@@ -14,5 +14,6 @@ int main(int argc, char** argv) {
 	std::cout << vec[0] << std::endl;
 	
 	std::vector<std::shared_ptr<MyClass>> vec2;
+
 	return 0;
 }
